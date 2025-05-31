@@ -38,7 +38,7 @@ setup(
     name="resemble-enhance",
     python_requires=">=3.10",
 #    version=write_version("0.0.2", pre_release=True),
-    version=1
+    version=1,
     description="Speech denoising and enhancement with deep learning",
     long_description=long_description,
     long_description_content_type="text/markdown",
