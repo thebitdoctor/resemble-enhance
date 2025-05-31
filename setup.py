@@ -16,7 +16,8 @@ def write_version(version_core, pre_release=True):
         last_commit_time = datetime.strptime(last_commit_time, "%Y-%m-%dT%H:%M:%S%z")
         last_commit_time = last_commit_time.astimezone(timezone.utc)
         last_commit_time = last_commit_time.strftime("%y%m%d%H%M%S")
-        version = f"{version_core}-dev{last_commit_time}"
+        #version = f"{version_core}-dev{last_commit_time}"
+        version = 1
     else:
         version = version_core
 
